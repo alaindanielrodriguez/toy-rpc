@@ -2,7 +2,7 @@ CC := gcc
 
 PACKAGES := \
 	drmollineda.so \
-	jsmith.so
+	danrdominguez.so
 
 %.so: proc_%.c
 	$(CC) -shared -fpic -o $@ $^
